@@ -1,0 +1,3 @@
+Coding to do a automatic irrigation. This model have 4 state. State 0: the electrovalvule is OFF. State 1: the electrovalvule is ON. State 2: the electrovalvule is ON after 21:00hs and turn off when it is 22:30hs or the humedity is above 90%. State 3: the electrovalvule Turn On when the humedity is under 50% and it Turn Off when the humedity is over 90%.
+
+For this project was used a solar panel, one 12v-7Ah battery and 2 regularer to kee the battery in the righ power. Also, for the signal part, I used a Arduino UNO, RTC Module, Relay Module and moisture Sensor. And finally, a electrovalvule.
